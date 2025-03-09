@@ -1,0 +1,137 @@
+:root {
+  --product-black: #000;
+  --product-white: #fff;
+  --product-red: #ee1212;
+  --product-green: #32840c;
+  --product-light-green: #7fcb5b61;
+  --product-brown: #413e01;
+  --product-yellow: #fffa87;
+  --product-gray: #d9d9d9;
+  --product-light-red: #ee121240;
+  --info: #808080;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: Inter, Arial, sans-serif;
+}
+
+.product-image-container {
+  height: 350px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.produktova-karta {
+  border: 1px solid#000;
+  width: 450px;
+  position: relative;
+  padding: 15px;
+}
+
+.bestseller {
+  display: inline-block;
+  background-color: var(--product-yellow);
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  border-radius: 0px 5px 5px 0px;
+  padding: 4px 16px;
+  font-size: smaller;
+}
+
+.produkt-roku {
+  display: inline-block;
+  background-color: var(--product-red);
+  color: var(--product-white);
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  border-radius: 0px 5px 5px 0px;
+  padding: 4px 16px;
+  font-size: smaller;
+}
+
+.sleva {
+  display: inline-block;
+  background-color: var(--product-red);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 70px;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--product-white);
+}
+
+.vice-info {
+  color: var(--info);
+  text-decoration: underline;
+}
+
+.info {
+  color: var(--info);
+  text-decoration: underline;
+}
+
+.cena {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.usetrite {
+  font-weight: bold;
+}
+
+.do-kosiku {
+  display: block;
+  background-color: var(--product-gray);
+  width: 85px;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  padding: 3px;
+  border-radius: 5px;
+  border: solid black;
+  font-weight: bold;
+}
+
+.ruzovy-container {
+  background-color: var(--product-light-red);
+  border-radius: 5px;
+  padding: 15px;
+  position: relative;
+}
+
+.zeleny-container {
+  background-color: var(--product-light-green);
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.postovni-box,
+.info {
+  color: var(--product-green);
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.info {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
