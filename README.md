@@ -1,1 +1,1 @@
-# Engeto_Front_end_Academy_ukol_2
+# Druhý úkol Engeto, Front-end Akademie
