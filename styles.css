@@ -28,7 +28,7 @@ img {
   object-fit: cover;
 }
 
-.produktova-karta {
+.product-card {
   border: 1px solid#000;
   width: 450px;
   position: relative;
@@ -47,7 +47,7 @@ img {
   font-size: smaller;
 }
 
-.produkt-roku {
+.product-year {
   display: inline-block;
   background-color: var(--product-red);
   color: var(--product-white);
@@ -60,7 +60,7 @@ img {
   font-size: smaller;
 }
 
-.sleva {
+.discount {
   display: inline-block;
   background-color: var(--product-red);
   height: 60px;
